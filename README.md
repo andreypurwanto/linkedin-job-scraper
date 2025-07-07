@@ -11,3 +11,10 @@ A Selenium-based job scraper for LinkedIn — built to automate login, job searc
 This project was inspired by [joeyism/linkedin_scraper](https://github.com/joeyism/linkedin_scraper) — shoutout to the original developer 👏
 
 I ran into challenges when scraping **job descriptions across paginated search results**, so I decided to build one to handle this.
+
+---
+
+## 📦 Installation
+
+```bash
+pip install git+https://github.com/andreypurwanto/linkedin-job-scraper.git
