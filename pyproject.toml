@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linkedin-job-scraper"
+version = "0.1.0"
+description = "A Selenium-based LinkedIn job scraper"
+authors = [
+    { name = "Andrey Purwanto", email = "andrey327.ap@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+dependencies = [
+    "selenium==4.1.3",
+    "python-dotenv==1.0.0"
+]
+
+[project.urls]
+Repository = "https://github.com/andreypurwanto/linkedin-job-scraper"
+
+[tool.setuptools]
+packages = ["linkedin_job_scraper"]
